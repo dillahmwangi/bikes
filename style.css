@@ -13,6 +13,9 @@
   background:#111;
   display:flex;
   flex-direction:column;
+  border-radius: 0;
+  z-index: 10;
+
 }
 .navbar .item {
   flex:1;
@@ -58,4 +61,10 @@ a{
 }
 .navbar:hover .item:nth-child(6) div.fa {
   color:#e86def;
+}
+
+
+body{
+  margin: 0px;
+  height: 100%;
 }
